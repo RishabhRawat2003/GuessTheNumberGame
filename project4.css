@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top ,rgba(120,180,90,0.5),rgba(190,220,110,0.5));
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para1 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    height: 55vh;
+    width: 37vw;
+    border-radius: 70px;
+    margin-top: 6vh;
+    margin-left: 32%;
+    background-color: #FBEEC1;
+    box-shadow: 0 0 10px grey;
+}
+.container p{
+    text-align: center;
+}
+.container h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.guessSlot {
+    margin-top: 4vh;
+    height: 4vh;
+    width: 15vw;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.guessSlotDisabled:hover{
+    cursor: not-allowed;
+}
+.submitBtn {
+    margin-top: 3vh;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 20px;
+    background-color: rgb(173, 230, 219);
+    box-shadow: 0 0 5px grey;
+}
+.submitBtn:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: rgba(173, 230, 219, 0.436);
+}
+.submitBtnDisable:hover{
+    cursor:not-allowed;
+    transform: none;
+    background-color:rgb(173, 230, 219) ;
+
+}
+.result {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 3vh;
+}
+
+.para2, .para3 , .loworhi {
+    margin-top: 2.3vh;
+}
+
+.newp {
+    text-decoration: underline;
+    color: blue;
+    margin-top: 4vh;
+}
+
+.newp:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+

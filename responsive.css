@@ -1,0 +1,424 @@
+/*@media (max-width:){
+
+}*/
+@media (width<=1340px) {
+    .container {
+        width: 40vw;
+        margin-left: 30%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .para1 {
+        font-size: 1.3rem;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+    }
+
+    .container h2 {
+        font-size: 1.7rem;
+    }
+
+    .submitBtn {
+        width: 8vw;
+    }
+
+    .guessSlot {
+        width: 18vw;
+    }
+
+    .result {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width <=1100px) {
+    .container {
+        height: 50vh;
+        width: 42vw;
+        margin-left: 28%;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .para1 {
+        font-size: 1.2rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+    .container h2 {
+        font-size: 1.6rem;
+    }
+
+    .submitBtn {
+        width: 11vw;
+    }
+
+    .guessSlot {
+        width: 19vw;
+    }
+
+    .result {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (width<=910px) {
+    .container {
+        height: 50vh;
+        width: 45vw;
+        margin-left: 26%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .para1 {
+        font-size: 1.1rem;
+    }
+
+    .container p {
+        font-size: 1.1rem;
+    }
+
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .submitBtn {
+        width: 13vw;
+    }
+
+    .guessSlot {
+        width: 22vw;
+    }
+
+    .result {
+        font-size: 1.3rem;
+    }
+}
+
+@media (width <=800px) {
+    .container {
+        height: 47vh;
+        width: 47vw;
+        margin-left: 24%;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .para1 {
+        font-size: 1rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .container h2 {
+        font-size: 1.4rem;
+    }
+
+    .submitBtn {
+        width: 15vw;
+    }
+
+    .guessSlot {
+        width: 25vw;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+}
+
+@media (width <=680px) {
+    .container {
+        height: 47vh;
+        width: 55vw;
+        margin-left: 22%;
+        border-radius: 40px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .para1 {
+        font-size: 0.9rem;
+    }
+
+    .container p {
+        font-size: 0.9rem;
+    }
+
+    .container h2 {
+        font-size: 1.3rem;
+    }
+
+    .submitBtn {
+        width: 17vw;
+    }
+
+    .guessSlot {
+        width: 28vw;
+        font-size: 0.8rem;
+    }
+
+    .result {
+        font-size: 1.1rem;
+    }
+}
+
+@media (width <=560px) {
+    .container {
+        height: 43vh;
+        width: 60vw;
+        margin-left: 20%;
+        border-radius: 40px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .para1 {
+        font-size: 0.8rem;
+    }
+
+    .container p {
+        font-size: 0.8rem;
+    }
+
+    .container h2 {
+        font-size: 1.2rem;
+    }
+
+    .submitBtn {
+        width: 17vw;
+        font-size: 0.7rem;
+        height: 3vh;
+    }
+
+    .guessSlot {
+        width: 29vw;
+        font-size: 0.8rem;
+        height: 4vh;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+@media (width <=480px) {
+    .container {
+        height: 40vh;
+        width: 65vw;
+        margin-left: 18%;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .para1 {
+        font-size: 0.7rem;
+    }
+
+    .container p {
+        font-size: 0.7rem;
+    }
+
+    .container h2 {
+        font-size: 1.1rem;
+    }
+
+    .submitBtn {
+        width: 17vw;
+        font-size: 0.6rem;
+    }
+
+    .guessSlot {
+        width: 32vw;
+        font-size: 0.6rem;
+    }
+
+    .result {
+        font-size: 0.9rem;
+    }
+}
+
+@media (width <=400px) {
+    .container {
+        height: 40vh;
+        width: 80vw;
+        margin-left: 10%;
+        border-radius: 30px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .para1 {
+        font-size: 0.7rem;
+    }
+
+    .container p {
+        font-size: 0.7rem;
+    }
+
+    .container h2 {
+        font-size: 1.1rem;
+    }
+
+    .submitBtn {
+        width: 22vw;
+        font-size: 0.6rem;
+    }
+
+    .submitBtn:hover {
+        transform: none;
+    }
+
+    .guessSlot {
+        width: 39vw;
+        font-size: 0.6rem;
+    }
+
+    .result {
+        font-size: 0.8rem;
+    }
+}
+
+@media (width <=290px) {
+    .container {
+        height: 39vh;
+        width: 84vw;
+        margin-left: 8%;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .para1 {
+        font-size: 0.6rem;
+    }
+
+    .container p {
+        font-size: 0.6rem;
+    }
+
+    .container h2 {
+        font-size: 1rem;
+    }
+
+    .submitBtn {
+        width: 25vw;
+        font-size: 0.5rem;
+    }
+
+    .submitBtn:hover {
+        transform: none;
+    }
+
+    .guessSlot {
+        width: 40vw;
+        font-size: 0.5rem;
+    }
+
+    .result {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (width <=220px) {
+    .container {
+        height: 38vh;
+        width: 89vw;
+        margin-left: 6%;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .para1 {
+        font-size: 0.5rem;
+    }
+
+    .container p {
+        font-size: 0.5rem;
+    }
+
+    .container h2 {
+        font-size: 0.9rem;
+    }
+
+    .submitBtn {
+        width: 28vw;
+        font-size: 0.4rem;
+    }
+
+    .submitBtn:hover {
+        transform: none;
+    }
+
+    .guessSlot {
+        width: 44vw;
+        font-size: 0.4rem;
+    }
+
+    .result {
+        font-size: 0.6rem;
+    }
+}
+
+@media  (height <=585px) {
+    .container {
+        height: 60vh;
+    }
+}
+
+@media (height <=585px) and (width:844px) {
+    .container {
+        height: 50vh;
+    }
+}
+
+@media (height <=495px) {
+    .container {
+        height: 50vh;
+    }
+
+}
+@media (height <=447px) and (width <=552px) {
+    .container {
+        height: 50vh;
+    }
+}
+
+@media (height <=570px) and (width <=283px) {
+    .container {
+        height: 45vh;
+    }
+}

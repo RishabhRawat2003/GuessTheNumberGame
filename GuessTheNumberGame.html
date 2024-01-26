@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 --- Guess The Number Game</title>
+    <link rel="stylesheet" href="project4.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <h1>Guess The Number Game</h1>
+    <p class="para1">In This Game You have To Guess The Number Choosed By Computer. Choose Any Number From 0 To 101. You
+        Can't Choose 0 and 101.</p>
+    <div class="container">
+        <h2>Guess Number</h2>
+        <p><input type="text" autofocus placeholder=" Enter Your Guess Here" class="guessSlot" id="guessBox"></p>
+        <p><input type="submit" value="Submit Guess" id="submitButton" class="submitBtn"></p>
+        <div class="result">
+            <p class="para2">Previous Guesses :<span class="prvGuess"></span></p>
+            <p class="para3">Remaining Chances: <span class="remaining">10</span></p>
+            <p class="loworhi"></p>
+        </div>
+    </div>
+    <script src="project4.js"></script>
+</body>
+
+</html>
